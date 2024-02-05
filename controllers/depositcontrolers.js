@@ -7,11 +7,6 @@ const deposits=async(req,res)=>{
         network:req.body.network,
         amount:req.body.amount,
         token:req.body.token
-   
-   
-        
-        
-     
 }))
         res.status(200).json(depositOn)
         console.log(depositOn)
