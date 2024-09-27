@@ -16,4 +16,4 @@ app.listen(port,()=>{console.log(`Server is listening on ${port}...`.yellow.bold
 
 connectDB();
 
-console.log(`HELLO USER`.america.bold.italic)
+console.log(`HELLO USER`.america.bold.italic) 
